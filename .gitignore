@@ -1,0 +1,16 @@
+# IntelliJ
+.idea
+out/
+
+# Java
+.class
+
+# Maven
+target/
+
+# Etc
+*.iml
+
+# Log
+.log
+
