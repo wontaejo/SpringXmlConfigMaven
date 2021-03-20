@@ -5,5 +5,6 @@
 </head>
 <body>
     <h1>Hello Spring Xml Config</h1>
+    <img src="./resources/spring.png" width="250"/>
 </body>
 </html>
