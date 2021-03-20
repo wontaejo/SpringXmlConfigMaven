@@ -5,8 +5,8 @@ import java.sql.DriverManager;
 
 public class MySQLConnectionTest {
 
-    private static final String DRIVER = "com.mysql.jdbc.Driver";
-    private static final String URL = "jdbc:mysql://localhost:3306/study?useSSL=false&serverTimezone=Asia/Seoul";
+    private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
+    private static final String URL = "jdbc:mysql://localhost:3306/study?useSSL=false&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true";
     private static final String USER = "root";
     private static final String PASSWORD = "root";
 
